@@ -18,10 +18,10 @@ fun BottomNav(
     navController: NavController
 ) {
     val listItems = listOf(
-        BottomItem.Screen1,
-        BottomItem.Screen2,
-        BottomItem.Screen3,
-        BottomItem.Screen4,
+        BottomItem.LogScreen,
+        BottomItem.ItemsScreen,
+        BottomItem.Scanner,
+        BottomItem.Notifications,
         BottomItem.Screen5
     )
     NavigationBar(
